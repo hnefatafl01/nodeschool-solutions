@@ -1,0 +1,13 @@
+{
+  "name": "nodeschool",
+  "version": "1.0.0",
+  "description": "nodeschool workshoppers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bl": "^1.2.1",
+    "concat-stream": "^1.6.0"
+  }
+}
