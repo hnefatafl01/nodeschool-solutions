@@ -10,6 +10,7 @@
     "async": "^2.5.0",
     "bl": "^1.2.1",
     "concat-stream": "^1.6.0",
-    "node-datetime": "^2.0.3"
+    "node-datetime": "^2.0.3",
+    "through2-map": "^3.0.0"
   }
 }
