@@ -6,8 +6,8 @@ const fs = require('fs');
 const server = http.createServer((req, res) => {
     res.writeHead(200, {'Content-Type': 'application/json'});
     if (req.method === 'GET') {
-        const myUrl = url.parse(req.url)
-        const p = myUrl.query.slice(4);
+        const myUrl = url.parse(req.url, true)
+        const p = myUrl.query.iso;
         const parsed = new Date(p);
         let date;
         if (myUrl.pathname === '/api/parsetime') {
